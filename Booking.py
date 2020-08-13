@@ -60,6 +60,7 @@ while op==1:
             elif op1==4:
                 print('--------Available FLights---------')
                 source=int(input('Enter source id of airport where u want to check flights:'))
+
                 print('\tID \t SOURCE \t DESTINATION \t DATE \t TAKEOFF \t CLASS \t AIRLINE \t VIA \t LANDING ')
 
                 for row in available(source):

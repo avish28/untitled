@@ -13,6 +13,7 @@ def viewfli():
     cur.execute("select * from flight")
     return cur
 
+
 def findfli(id):
     cur.execute("select * from flight where fli_id=%s",(id,))
     return cur
