@@ -8,6 +8,7 @@ class Airport():
     def setairid(self,id):
         self.id = id
 
+
     def setairname(self,name):
         self.name=name
 

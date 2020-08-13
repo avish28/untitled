@@ -17,6 +17,7 @@ def findcust(id):
     cur.execute("select * from customers where cust_id=%s",(id,))
     return cur
 
+
 def close():
     cur.close()
     connection.close()

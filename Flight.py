@@ -13,6 +13,7 @@ class Flight:
         self.via=''
         self.airline=''
 
+
     def setvia(self,via):
         self.via=via
 

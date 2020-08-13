@@ -9,6 +9,7 @@ def insertair(air):
     connection.commit()
     return True
 
+
 def viewair():
     cur.execute("select * from airport")
     return cur
