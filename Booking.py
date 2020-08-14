@@ -10,7 +10,7 @@ while op==1:
     print('\t\t 1.Airport')
     print('\t\t 2.Flights')
     print('\t\t 3.Customer')
-    print('\t\t 4.Exit')
+    print('\t\t 4.exit')
     choice=int(input('Enter ur choice:'))
 
     if choice==1:
