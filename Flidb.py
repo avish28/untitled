@@ -18,7 +18,7 @@ def findfli(id):
     cur.execute("select * from flight where fli_id=%s",(id,))
     return cur
 
-def available(source):
+def avialable(source):
     cur.execute("select * from flight where fli_source=%s",(source,))
     return cur
 
